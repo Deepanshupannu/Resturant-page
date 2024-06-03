@@ -1,0 +1,9 @@
+header{
+    background-color: aqua;
+}
+
+#homecard img{
+    height: 50vh;
+    width: 50wv;
+    align-content: center;
+}
