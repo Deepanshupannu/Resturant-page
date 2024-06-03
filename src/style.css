@@ -1,9 +1,62 @@
+
 header{
-    background-color: aqua;
+    background-color: rgb(240, 211, 190);
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+}
+.navbar button{
+    border: none;
+    background: transparent;
+    font-size: 28px;
+    cursor: pointer;
+    
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-color: blanchedalmond;
+
 }
 
 #homecard img{
     height: 50vh;
     width: 50wv;
     align-content: center;
+    border-radius: 10%;
+}
+#homecard{
+    text-align: center;
+}
+
+#addcard img{
+    margin: 10px;
+    height: 400px;
+    width: 500px;
+    border-radius: 10%;
+
+} 
+#addcard {
+    text-align: center;
+}
+#menucard img{
+    height: 400px;
+    width: 500px;
+    margin: 15px;
+    border-radius: 10%;
+    
+}
+#menucard{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
